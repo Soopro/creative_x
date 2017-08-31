@@ -18,18 +18,18 @@
          sup-widget-series
          default="{{[
             {
-              'title': _('Service Title'),
-              'caption': _('Click here to edit the service.'),
+              'title': _('Feature Title'),
+              'caption': _('Click here to edit the feature.'),
               'src': theme_url+'/styles/f1.png'
             },
             {
-              'title': _('Service Title'),
-              'caption': _('Click here to edit the service.'),
+              'title': _('Feature Title'),
+              'caption': _('Click here to edit the feature.'),
               'src': theme_url+'/styles/f2.png'
             },
             {
-              'title': _('Service Title'),
-              'caption': _('Click here to edit the service.'),
+              'title': _('Feature Title'),
+              'caption': _('Click here to edit the feature.'),
               'src': theme_url+'/styles/f3.png'
             }
          ]}}"
@@ -37,7 +37,7 @@
 
       <div class="col-md-3 col-sm-6 text-center"
            ng-repeat="item in meta.series">
-        <div class="service-box"
+        <div class="feature-box"
              series-item>
           <figure>
             <img ng-src="{{theme_url}}/styles/trans.png"
@@ -54,7 +54,7 @@
       </div>
 
       <div class="col-md-3 col-sm-6 text-center">
-        <div class="service-box"
+        <div class="feature-box"
              series-item-create>
           <figure>
             <img ng-src="{{theme_url}}/styles/trans.png"
@@ -65,7 +65,7 @@
             {{_('Create New Service')}}
           </h3>
           <p class="text-muted text-clamp-3">
-            {{_('Click here add a new service.')}}
+            {{_('Click here add a new feature.')}}
           </p>
         </div>
       </div>

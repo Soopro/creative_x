@@ -21,6 +21,18 @@
 		"msgstr": "了解更多"
 	},
 	{
+		"msgid": "Feature Title",
+		"msgstr": "特点标题"
+	},
+	{
+		"msgid": "Click here to edit the feature.",
+		"msgstr": "点击这里编辑特点内容。"
+	},
+	{
+		"msgid": "Create New Feature",
+		"msgstr": "添加新特点"
+	},
+	{
 		"msgid": "Service Title",
 		"msgstr": "服务标题"
 	},
@@ -41,7 +53,7 @@
 		"msgstr": "作品标题"
 	},
 	{
-		"msgid": "Click here edit the works.",
+		"msgid": "Click here to edit the works.",
 		"msgstr": "点击这里编辑作品内容。"
 	},
 	{
