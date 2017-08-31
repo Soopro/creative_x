@@ -243,6 +243,15 @@ section {
   margin: 24px auto;
   max-width: 400px;
 }
+.service-box figure {
+  -webkit-transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out;
+}
+.service-box:hover figure {
+  -webkit-filter: brightness(0.61);
+  filter: brightness(0.61);
+}
 .service-box p {
   height: 52px;
 }
@@ -254,17 +263,17 @@ section {
 .feature-box figure {
   margin: 0 auto;
   max-width: 120px;
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
-}
-.feature-box p {
-  height: 52px;
+  -webkit-transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out;
 }
 .feature-box:hover figure {
   margin-top: -14px;
   padding-bottom: 14px;
   opacity: 0.61;
+}
+.feature-box p {
+  height: 52px;
 }
 
 .portfolio-box {
