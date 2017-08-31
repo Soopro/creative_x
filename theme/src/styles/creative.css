@@ -38,6 +38,7 @@ p {
 }
 
 section {
+  position: relative;
   background-position: center;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -253,7 +254,7 @@ section {
   filter: brightness(0.61);
 }
 .service-box p {
-  height: 52px;
+  height: 72px;
 }
 
 .feature-box {
@@ -273,7 +274,7 @@ section {
   opacity: 0.61;
 }
 .feature-box p {
-  height: 52px;
+  height: 72px;
 }
 
 .portfolio-box {

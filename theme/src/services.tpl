@@ -2,7 +2,9 @@
 {% include '_css.tpl' %}
 {% include '_header.tpl' %}
 
-<section id="{{meta.slug}}" class="segment-wrapper">
+<div sup-gap="10"></div>
+
+<section id="{{meta.slug}}" class="segment-wrapper no-border">
   <header class="container">
     <h2 class="section-heading">
       <span sup-widget-text
@@ -18,17 +20,17 @@
             {
               'title': _('Service Title'),
               'caption': _('Click here to edit the service.'),
-              'src': theme_url+'/styles/f1.png'
+              'src': theme_url+'/styles/s1.jpg'
             },
             {
               'title': _('Service Title'),
               'caption': _('Click here to edit the service.'),
-              'src': theme_url+'/styles/f2.png'
+              'src': theme_url+'/styles/s2.jpg'
             },
             {
               'title': _('Service Title'),
               'caption': _('Click here to edit the service.'),
-              'src': theme_url+'/styles/f3.png'
+              'src': theme_url+'/styles/s3.jpg'
             }
          ]}}"
          ng-model="meta.series">

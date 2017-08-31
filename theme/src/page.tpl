@@ -2,8 +2,10 @@
 {% include '_css.tpl' %}
 {% include '_header.tpl' %}
 
+<div sup-gap="10"></div>
+
 <section id="{{meta.slug}}"
-         class="segment-wrapper {{meta.bg.class}}"
+         class="segment-wrapper no-border {{meta.bg.class}}"
          style="{{meta.bg.style}}">
   <div sup-widget-bg
        presets="[

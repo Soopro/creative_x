@@ -2,7 +2,9 @@
 {% include '_css.tpl' %}
 {% include '_header.tpl' %}
 
-<section id="{{meta.slug}}" class="segment-wrapper">
+<div sup-gap="10"></div>
+
+<section id="{{meta.slug}}" class="segment-wrapper no-border">
   <header class="container">
     <h2 class="section-heading">
       <span sup-widget-text
@@ -43,10 +45,10 @@
                  style="{{item.src|bg_img}}" />
           </figure>
           <h3 class="text-nowrap">
-            {{item.title}}
+            {{item.title || _('Item Title')}}
           </h3>
           <p class="text-muted text-clamp-3">
-            {{item.caption}}
+            {{item.caption || _('Item Caption')}}
           </p>
         </div>
       </div>

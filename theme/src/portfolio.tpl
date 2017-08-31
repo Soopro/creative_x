@@ -2,6 +2,8 @@
 {% include '_css.tpl' %}
 {% include '_header.tpl' %}
 
+<div sup-gap="10"></div>
+
 <section id="{{meta.slug}}"
          class="segment-wrapper no-padding no-border">
 
@@ -18,6 +20,21 @@
              'title': _('Works Title'),
              'caption': _('Click here to edit the works.'),
              'src': theme_url+'/styles/p2.jpg'
+           },
+           {
+             'title': _('Works Title'),
+             'caption': _('Click here to edit the works.'),
+             'src': theme_url+'/styles/p3.jpg'
+           },
+           {
+             'title': _('Works Title'),
+             'caption': _('Click here to edit the works.'),
+             'src': theme_url+'/styles/p4.jpg'
+           },
+           {
+             'title': _('Works Title'),
+             'caption': _('Click here to edit the works.'),
+             'src': theme_url+'/styles/p5.jpg'
            }
          ]}}"
          ng-model="meta.series">
