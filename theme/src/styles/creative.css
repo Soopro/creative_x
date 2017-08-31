@@ -40,7 +40,6 @@ p {
 section {
   position: relative;
   background-position: center;
-  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -50,6 +49,7 @@ section {
 .hero {
   border-top: 0;
   padding: 100px 0;
+  background-attachment: fixed;
 }
 
 .segment-wrapper {
@@ -579,13 +579,14 @@ body > footer p{
   color: #eee;
 }
 
-.palette-hero.segment-wrapper {
+.palette-fixed.segment-wrapper {
   color: #fff;
   background-image: url('hero.jpg');
+  background-attachment: fixed;
 }
-.palette-hero .section-heading,
-.palette-hero .caption,
-.palette-hero .content {
+.palette-fixed .section-heading,
+.palette-fixed .caption,
+.palette-fixed .content {
   opacity: 0.82;
 }
 

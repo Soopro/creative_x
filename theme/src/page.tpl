@@ -9,7 +9,8 @@
          style="{{meta.bg.style}}">
   <div sup-widget-bg
        presets="[
-         {'key': 'palette-dark', 'label': 'Darkness'}
+         {'key': 'palette-dark', 'label': _('Darkness')},
+         {'key': 'palette-fixed', 'label': _('Fixed')}
        ]"
        ng-model="meta.bg"></div>
   <header class="contianer">
