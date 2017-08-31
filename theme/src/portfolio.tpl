@@ -3,18 +3,7 @@
 {% include '_header.tpl' %}
 
 <section id="{{meta.slug}}"
-         class="segment-wrapper no-padding">
-
-  <aside class="aside-bar">
-    <div class="container text-center">
-      <h2 class="section-heading">
-        <span default="{{_('Title')}}"
-              sup-widget-text
-              ng-model="meta.title"></span>
-      </h2>
-      <hr class="divider">
-    </div>
-  </aside>
+         class="segment-wrapper no-padding no-border">
 
   <div class="container-fluid">
     <div class="row no-gutter"

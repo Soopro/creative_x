@@ -1,13 +1,4 @@
-<section id="{{page.slug}}" class="segment-wrapper no-padding">
-
-  <aside class="aside-bar bg-dark">
-    <div class="container text-center">
-      <h2 class="section-heading"
-          sup-bind-html="page.title || _('Title')">
-      </h2>
-      <hr class="light">
-    </div>
-  </aside>
+<section id="{{page.slug}}" class="segment-wrapper no-padding no-border">
 
   <div class="container-fluid">
     <div class="row no-gutter">
