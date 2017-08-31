@@ -2,8 +2,6 @@
 <link ng-href="{{theme_url}}/styles/bootstrap.min.css"
       rel="stylesheet">
 <!-- plugin -->
-<link ng-href="{{theme_url}}/styles/animate.min.css"
-      rel="stylesheet">
 <link ng-href="{{theme_url}}/styles/magnific-popup.css"
       rel="stylesheet">
 <!-- custom -->

@@ -33,6 +33,14 @@ p {
   line-height: 1.5;
 }
 
+section {
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 
 .hero {
   border-top: 0;
@@ -158,12 +166,6 @@ p {
   text-align: center;
   color: #fff;
   background-image: url('hero.jpg');
-  background-position: center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 
 .hero .header-content {
@@ -260,6 +262,7 @@ p {
 .feature-box:hover figure {
   margin-top: -14px;
   padding-bottom: 14px;
+  opacity: 0.61;
 }
 
 .portfolio-box {
@@ -562,6 +565,16 @@ body > footer p{
 .palette-dark .caption,
 .palette-dark .content {
   color: #eee;
+}
+
+.palette-hero.segment-wrapper {
+  color: #fff;
+  background-image: url('hero.jpg');
+}
+.palette-hero .section-heading,
+.palette-hero .caption,
+.palette-hero .content {
+  opacity: 0.82;
 }
 
 /* Languages
