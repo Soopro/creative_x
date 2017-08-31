@@ -7,8 +7,6 @@
 <!-- custom -->
 <link ng-href="{{theme_url}}/styles/creative.css"
       rel="stylesheet">
-<link ng-href="{{theme_url}}/styles/editor.css"
-      rel="stylesheet">
 
 <!-- Custom styles -->
 <style sup-bind-html="theme_meta.styles"></style>
