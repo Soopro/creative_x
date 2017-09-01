@@ -8,7 +8,8 @@
     <hr class="divider">
     <p class="caption text-center"
        sup-bind-html="page.description"></p>
-  </div>
+  </header>
+
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">

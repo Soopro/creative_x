@@ -2,12 +2,13 @@
 <section id="{{page.slug}}"
          class="segment-wrapper no-padding no-border">
 
-
   <div class="container-fluid">
     <div class="row no-gutter img-gallery">
       {% for item in page.series %}
       <div class="col-lg-4 col-sm-6">
-        <a href="{{item.src}}" class="img-popup portfolio-box">
+        <a class="{{'img-popup' if not item.target}} portfolio-box"
+           href="{{(item.link|url) or item.src}}"
+           target="{{item.target}}">
           <img src="{{theme_url}}/styles/trans.png"
                class="img-responsive thumbnail-img"
                style="{{item.src|bg_img}}"

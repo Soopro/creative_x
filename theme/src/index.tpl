@@ -9,6 +9,9 @@
   <div sup-widget-bg ng-model="meta.hero"></div>
   <div class="header-content">
     <div class="header-content-inner">
+      <div class="logo"
+           style="{{site_meta.logo|bg_img}}"
+           ng-if="site_meta.logo"></div>
       <h1>
         <span sup-widget-text
               default="{{_('Title')}}"
