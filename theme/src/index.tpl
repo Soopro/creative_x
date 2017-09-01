@@ -45,6 +45,11 @@
          segment>
       {% include "_seg/_portfolio.tpl" %}
     </div>
+    <div ng-if="page.template == 'features'"
+         sup-ico-inset="top"
+         segment>
+      {% include "_seg/_features.tpl" %}
+    </div>
     <div ng-if="page.template == 'services'"
          sup-ico-inset="top"
          segment>
