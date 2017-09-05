@@ -21,7 +21,7 @@
           <h3 class="text-nowrap">
             {{item.title}}
           </h3>
-          <p class="text-muted text-clamp-3">
+          <p class="text-muted text-clamp-2">
             {{item.caption}}
           </p>
         </div>

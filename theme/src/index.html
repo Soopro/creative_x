@@ -17,7 +17,9 @@
       {% endif %}
       <h1>{{meta.title or _('Title')}}</h1>
       <hr class="divider">
-      <p>{{meta.description or _('Description text here')}}</p>
+      <p class="lead">
+        {{meta.description or _('Description text here')}}
+      </p>
       <a href="{{meta.entrance.hash or (meta.entrance.link|url)}}"
          class="btn btn-primary btn-xl page-scroll {{meta.entrance.class}}"
          target="{{meta.entrance.target}}">

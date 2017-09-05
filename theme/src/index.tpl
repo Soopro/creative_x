@@ -18,7 +18,7 @@
               ng-model="meta.title"></span>
       </h1>
       <hr class="divider">
-      <p>
+      <p class="lead">
         <span sup-widget-text
               default="{{_('Description text here')}}"
               ng-model="meta.description"></span>

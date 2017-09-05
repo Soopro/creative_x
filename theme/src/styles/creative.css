@@ -231,7 +231,6 @@ section {
     margin-right: auto;
     margin-left: auto;
     max-width: 80%;
-    font-size: 18px;
   }
 }
 
@@ -254,7 +253,7 @@ section {
   filter: brightness(0.61);
 }
 .service-box p {
-  height: 72px;
+  height: 3em;
 }
 
 .feature-box {
@@ -274,7 +273,7 @@ section {
   opacity: 0.61;
 }
 .feature-box p {
-  height: 72px;
+  height: 4.5em;
 }
 
 .portfolio-box {
@@ -501,9 +500,18 @@ body > footer {
   padding-bottom: 15px;
   background-color: #3F51B5;
 }
-body > footer p{
-  padding: 0;
+body > footer p {
+  display: inline-block;
+  font-size: 14px;
+  padding: 3px;
   margin: 0;
+  color: #fff;
+}
+body > footer p a,
+body > footer p span {
+  padding: 3px 6px;
+  display: inline-block;
+  color: #fff;
 }
 
 .thumbnail-img {
@@ -559,6 +567,10 @@ body > footer p{
   max-width: 100%;
 }
 
+.wx-feautred {
+  width: 400px;
+  height: 400px;
+}
 
 /* palette */
 .palette-dark.segment-wrapper {
