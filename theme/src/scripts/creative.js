@@ -17,6 +17,15 @@
         });
     });
 
+    $('.popup-modal').each(function () {
+        $(this).magnificPopup({
+            type: 'inline',
+            preloader: false,
+        });
+    });
+
+
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var anchor = $(this);
