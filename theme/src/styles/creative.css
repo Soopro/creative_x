@@ -654,7 +654,8 @@ body > footer p span {
 /* ----------------------------------------------- */
 html[lang^="zh"],
 html[lang^="zh"] body {
-  font-family: 'Merriweather',
+  font-family: 'Noto Sans CJK SC',
+               'Source Han Sans SC', 'Source Han Sans CN',
                'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
                'Helvetica Neue',  Helvetica, Arial, sans-serif;
 }
