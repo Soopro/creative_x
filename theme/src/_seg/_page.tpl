@@ -12,7 +12,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
+      <div class="col-lg-8 col-lg-offset-2">
         <div class="content"
              sup-bind-html="page.content"></div>
       </div>
