@@ -6,8 +6,8 @@ body {
 
 body {
   min-height: 640px;
-  font-family: 'Merriweather', 'Helvetica Neue',
-                Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica,
+                Arial, verdana, Tahoma, sans-serif;
 }
 
 *:focus {
@@ -570,6 +570,9 @@ body > footer p span {
   background-position: center center;
 }
 
+.bg-fixed {
+  background-attachment: fixed;
+}
 
 /* text */
 .text-clamp-2 {
@@ -623,7 +626,7 @@ body > footer p span {
 /* palette */
 .palette-dark.segment-wrapper {
   color: #fff;
-  border-top-color: #3F51B5;
+  border: 0;
   background-color: #3F51B5;
 }
 .palette-dark .section-heading {
@@ -639,23 +642,13 @@ body > footer p span {
   color: #eee;
 }
 
-.palette-fixed.segment-wrapper {
-  color: #fff;
-  background-image: url('hero.jpg');
-  background-attachment: fixed;
-}
-.palette-fixed .section-heading,
-.palette-fixed .caption,
-.palette-fixed .content {
-  opacity: 0.82;
-}
-
 /* Languages
 /* ----------------------------------------------- */
 html[lang^="zh"],
 html[lang^="zh"] body {
-  font-family: 'Noto Sans CJK SC',
-               'Source Han Sans SC', 'Source Han Sans CN',
-               'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
-               'Helvetica Neue',  Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial,
+               "PingFang SC", "Hiragino Sans GB",
+               "Source Han Sans CN", "Source Han Sans SC",
+               "Microsoft YaHei", "STXihei", "STHeiti", "SimHei",
+               sans-serif;
 }

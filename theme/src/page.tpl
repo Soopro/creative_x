@@ -9,8 +9,7 @@
          style="{{meta.bg.style}}">
   <div sup-widget-bg
        presets="[
-         {'key': 'palette-dark', 'label': _('Darkness')},
-         {'key': 'palette-fixed', 'label': _('Fixed')}
+         {'key': 'palette-dark', 'label': _('Darkness')}
        ]"
        ng-model="meta.bg"></div>
   <header class="contianer">
@@ -28,7 +27,7 @@
   </header>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-md-8 col-md-offset-2">
         <div class="content"
              sup-angular-wysiwyg
              default="{{_('$_CONTENT')}}"
