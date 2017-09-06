@@ -197,12 +197,17 @@ section {
 .modal-language-switcher .lang-item {
   display: block;
   padding: 6px;
+  margin: 6px;
   font-size: 18px;
   text-decoration: none;
 }
+.modal-language-switcher .lang-item.active {
+  color: #999;
+  pointer-events: none;
+}
+
 
 /* elements */
-
 .hero {
   position: relative;
   width: 100%;

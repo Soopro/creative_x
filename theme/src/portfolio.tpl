@@ -39,7 +39,7 @@
          ]}}"
          ng-model="meta.series">
 
-      <div class="col-lg-4 col-sm-6"
+      <div class="col-md-4 col-sm-6"
            ng-repeat="item in meta.series">
         <a href="#"
            class="portfolio-box"
@@ -61,7 +61,7 @@
         </a>
       </div>
 
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-md-4 col-sm-6">
         <a href="#"
            class="portfolio-box"
            sup-ico-inset="top"
