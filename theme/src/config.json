@@ -21,6 +21,6 @@
   "segments": 24,
 
   "options":{
-      "sortby": "date"
+      "sortby": "+date"
   }
 }
