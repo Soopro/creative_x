@@ -9,4 +9,4 @@
       rel="stylesheet">
 
 <!-- Custom styles -->
-<style sup-bind-css="theme_meta.styles"></style>
+<style sup-bind-html="theme_meta.styles"></style>
