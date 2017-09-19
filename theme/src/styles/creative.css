@@ -212,7 +212,7 @@ section {
 .hero {
   position: relative;
   width: 100%;
-  min-height: auto;
+  min-height: 100%;
   text-align: center;
   color: #fff;
   background-image: url('hero.jpg');
@@ -221,7 +221,7 @@ section {
 .hero .header-content {
   position: relative;
   width: 100%;
-  padding: 100px 15px;
+  padding: 40px 15px;
   text-align: center;
 }
 
@@ -250,14 +250,9 @@ section {
 }
 
 @media(min-width:768px) {
-  .hero {
-    min-height: 100%;
-  }
-
   .hero .header-content {
     position: absolute;
     top: 50%;
-    padding: 0 50px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
