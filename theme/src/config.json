@@ -1,6 +1,6 @@
 {
   "slug": "creative_x",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": "Redy",
   "license": "MIT",
   "title": "CREATIVE X",
@@ -17,8 +17,6 @@
     "^portfolio",
     "index"
   ],
-
-  "segments": 24,
 
   "options":{
       "sortby": "+date"
