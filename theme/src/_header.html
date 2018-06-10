@@ -25,7 +25,7 @@
              target="{{menu.target}}">{{menu.name}}</a>
         </li>
         {% endfor %}
-        {% if translates %}
+        {% if languages %}
         <li class="language">
           <a class="popup-modal"
              href=".modal-language-switcher">
@@ -39,7 +39,7 @@
     <div class="mfp-hide modal-language-switcher">
       <h5 class="headline">{{_('Language')}}</h5>
       <div class="lang-group">
-      {% for trans in translates %}
+      {% for trans in languages %}
       <a href="{{trans.url}}"
          class="lang-item {{'active' if trans.active}}">
         {{trans.name}}
