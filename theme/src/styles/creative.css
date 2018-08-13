@@ -637,6 +637,13 @@ body > footer p span {
   color: #eee;
 }
 
+
+/* Editor
+/* ----------------------------------------------- */
+.editor-top {
+  min-height: 60px;
+}
+
 /* Languages
 /* ----------------------------------------------- */
 html[lang^="zh"],

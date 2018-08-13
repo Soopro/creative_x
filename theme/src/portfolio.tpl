@@ -2,7 +2,7 @@
 {% include '_css.tpl' %}
 {% include '_header.tpl' %}
 
-<div sup-gap="10"></div>
+<div class="editor-top"></div>
 
 <section id="{{meta.slug}}"
          class="segment-wrapper no-padding no-border">
